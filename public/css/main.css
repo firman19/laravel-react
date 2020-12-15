@@ -1,0 +1,55 @@
+body {
+  background-color: #191928;
+}
+
+.container-login {
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 96px;
+  background: #2A2D44;
+  padding: 32px;
+  text-align: center;
+  color: white;
+}
+
+.container-login .wrapper {
+  max-width: 360px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container-login .wrapper .item {
+  margin: 32px 0px;
+}
+
+.container-login .wrapper .input {
+  border-radius: 0px;
+  background-color: #191928;
+  border: unset;
+  color: white;
+}
+
+.mybtn {
+  background: #FFCC16;
+  border: none;
+}
+
+.mybtn:hover {
+  background: #CAA213;
+}
+
+.inactive {
+  color: rgba(255, 249, 249, 0.5);
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+a:hover {
+  color: yellow;
+  text-decoration: none;
+}
+

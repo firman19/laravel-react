@@ -1,0 +1,53 @@
+@import 'variables';
+
+body{
+    background-color: #191928;
+}
+
+.container{
+    &-login{
+        max-width: 640px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 96px;
+        background: #2A2D44;
+        padding: 32px;
+        text-align: center;
+        color: white;
+        .wrapper{
+            max-width: 360px;
+            margin-left: auto;
+            margin-right: auto;
+            .item{
+                margin:32px 0px;
+            }
+            .input{
+                border-radius: 0px;
+                background-color: #191928;
+                border: unset;
+                color: white;
+            }
+        }
+    }
+}
+
+.mybtn{
+    background:$yellow;
+    border: none;
+    &:hover{
+        background:$yellow-hv;
+    }
+}
+
+.inactive{
+    color:$inactive;
+}
+
+a{
+    text-decoration: none;
+    color:unset;
+    &:hover{
+        color:yellow;
+        text-decoration: none;
+    }
+}
